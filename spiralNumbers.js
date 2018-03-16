@@ -1,3 +1,5 @@
+// Creates a 2D (n*n) array filled with numbers from 1 to (n * n) making a spiral
+
 const spiralNumbers = (n) => {
     const walls = [n, n, -1, -1], r = Array.from(Array(n), () => new Array(n));
 
