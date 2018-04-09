@@ -4,7 +4,7 @@
 // let B be the amount of numbers in the range [1, n] with this weakness
 
 // returns [A, B]
-function weakNumbers(n) {
+const weakNumbers = (n) => {
     const nums = Array.from(Array(n), (_, i) => i + 1), d = [], w = [];
     
     for (let n of nums) {
