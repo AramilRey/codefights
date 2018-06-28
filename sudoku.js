@@ -1,4 +1,5 @@
 // Returns true if ${grid} is a valid sudoku solution or false otherwise
+// Where ${grid} is a 9x9 Array filled with integers from 1 to 9
 
 const isValidSudoku = (grid) => {
     const rows = grid[0].map((col, i) => grid.map(row => row[i]));
